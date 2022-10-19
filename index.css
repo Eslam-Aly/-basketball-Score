@@ -1,0 +1,79 @@
+body {
+
+    background: #1B244A;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+
+    
+    
+
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin:50px auto;
+
+}
+
+
+h3 {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #EEEEEE
+
+}
+
+.home {
+    text-align: center;
+
+    
+
+}
+
+.guest {   
+    text-align: center;
+
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    width: 155px;
+    height: 120px;
+    margin: 20px auto;
+    color: #F94F6D;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Silkscreen ;
+
+}
+
+
+button {
+    width: 50px;
+    height: 40px;
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font-family: Silkscreen ;
+}
+
+#SAVE {
+    width: 200px;
+    box-shadow: 0 0 10px black    
+}
+
+#score-p {
+    color: white;
+    font-weight: 700;
+    font-size: 30px; 
+}
